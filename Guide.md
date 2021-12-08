@@ -73,4 +73,16 @@
 - Used to do perform tasks based on certain conditions
 - Used with comparison operators and boolean values
 - For eg, `print(5==4)` will print false
-- `if-else` statements are used to perform conditional logic (refer to [conditionals.py](./conditionals.py))
+- `if-else` statements are used to perform conditional logic (refer to [if-else.py](./if-else.py))
+
+#### Functions
+
+- Block of code with a name that can be executed when called
+- Makes code more reusable
+- Can be built-in `print()` or can be created by us
+- Created by using the **def** keyword followed by function name and parenthesis
+- Cannot be called before defining it
+- Can take arguments as function parameters
+- If-else statements can be used inside functions
+- Values can also be returned from function after executions
+- Refer to [functions.py](./functions.py)
