@@ -66,3 +66,11 @@
 - Should only contain letters, numbers, and underscores
 - Shouldn't start w number
 - Case sensitive and can't be python keywords
+
+#### Conditional Logic
+
+- Every expression breaks down to true or false
+- Used to do perform tasks based on certain conditions
+- Used with comparison operators and boolean values
+- For eg, `print(5==4)` will print false
+- `if-else` statements are used to perform conditional logic (refer to [conditionals.py](./conditionals.py))
