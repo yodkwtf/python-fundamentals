@@ -86,3 +86,10 @@
 - If-else statements can be used inside functions
 - Values can also be returned from function after executions
 - Refer to [functions.py](./functions.py)
+
+#### Loops
+
+- Used to executed a block of code multiple times
+- 2 types are **while loops** & **for loops**
+- Use `break` to stop and exit the loop
+- Use `continue` to skip over current iteration
