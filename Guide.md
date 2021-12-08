@@ -93,3 +93,10 @@
 - 2 types are **while loops** & **for loops**
 - Use `break` to stop and exit the loop
 - Use `continue` to skip over current iteration
+
+#### Importing Libraries and Modules
+
+- Can be imported to built stuff on top of pre existing code
+- Use `import` keyword followed by the library name
+- Use the methods on the imported library or however the respective module works
+- Refer to [libraries.py](./libraries.py)
