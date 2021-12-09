@@ -106,3 +106,12 @@ A playground to learn basics of python with small programs and my personal docs 
 - Use `import` keyword followed by the library name
 - Use the methods on the imported library or however the respective module works
 - Refer to [libraries.py](./libraries.py)
+
+#### Data Types
+
+- There are multiple data types in python
+- `str` represents strings - any text or characters
+- `int` is for integers like 4, 7, 27328
+- `float` is for numbers with decimals like 3.2, 7839.83
+- `bool` is for True/False (case sensitive)
+- Refer to [data-types.py](./data-types.py)
