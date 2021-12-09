@@ -70,6 +70,8 @@ A playground to learn basics of python with small programs and my personal docs 
 - Should only contain letters, numbers, and underscores
 - Shouldn't start w number
 - Case sensitive and can't be python keywords
+- Can be reset later after defining
+- Refer to [variables.py](./variables.py)
 
 #### Conditional Logic
 
