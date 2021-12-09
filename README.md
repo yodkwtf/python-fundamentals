@@ -97,6 +97,7 @@ A playground to learn basics of python with small programs and my personal docs 
 - 2 types are **while loops** & **for loops**
 - Use `break` to stop and exit the loop
 - Use `continue` to skip over current iteration
+- Refer to [for-loop.py](./for-loop.py) and [while-loop.py](./while-loop.py)
 
 #### Importing Libraries and Modules
 
