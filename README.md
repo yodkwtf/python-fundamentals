@@ -77,7 +77,8 @@ A playground to learn basics of python with small programs and my personal docs 
 - Used to do perform tasks based on certain conditions
 - Used with comparison operators and boolean values
 - For eg, `print(5==4)` will print false
-- `if-else` statements are used to perform conditional logic (refer to [if-else.py](./if-else.py))
+- `if-else` statements are used to perform conditional logic
+- Refer to [if-else.py](./if-else.py)
 
 #### Functions
 
