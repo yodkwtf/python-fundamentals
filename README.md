@@ -44,18 +44,6 @@ A playground to learn basics of python with small programs and my personal docs 
 
 ## Python Notes
 
-#### Operators
-
-- Adding(+), subtract(-), multiple(\*), divide (%)
-- White spaces are ignored
-- Follows default mathematical BODMAS rule `2+2*5 = 12`
-- Don't use commas in bw numbers
-
-#### Strings
-
-- Wrap text bw single or double quotes `print("Hello")`
-- Numbers can also be used as strings `print('5')`
-
 #### Comments
 
 - Can be used to explain code
@@ -72,6 +60,27 @@ A playground to learn basics of python with small programs and my personal docs 
 - Case sensitive and can't be python keywords
 - Can be reset later after defining
 - Refer to [variables.py](./variables.py)
+
+#### Data Types
+
+- There are multiple data types in python
+- `str` represents strings - any text or characters
+- `int` is for integers like 4, 7, 27328
+- `float` is for numbers with decimals like 3.2, 7839.83
+- `bool` is for True/False (case sensitive)
+- Refer to [data-types.py](./data-types.py)
+
+#### Operators
+
+- Adding(+), subtract(-), multiple(\*), divide (%)
+- White spaces are ignored
+- Follows default mathematical BODMAS rule `2+2*5 = 12`
+- Don't use commas in bw numbers
+
+#### Strings
+
+- Wrap text bw single or double quotes `print("Hello")`
+- Numbers can also be used as strings `print('5')`
 
 #### Conditional Logic
 
@@ -108,12 +117,3 @@ A playground to learn basics of python with small programs and my personal docs 
 - Use `import` keyword followed by the library name
 - Use the methods on the imported library or however the respective module works
 - Refer to [libraries.py](./libraries.py)
-
-#### Data Types
-
-- There are multiple data types in python
-- `str` represents strings - any text or characters
-- `int` is for integers like 4, 7, 27328
-- `float` is for numbers with decimals like 3.2, 7839.83
-- `bool` is for True/False (case sensitive)
-- Refer to [data-types.py](./data-types.py)
