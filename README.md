@@ -68,7 +68,17 @@ A playground to learn basics of python with small programs and my personal docs 
 - `int` is for integers like 4, 7, 27328
 - `float` is for numbers with decimals like 3.2, 7839.83
 - `bool` is for True/False (case sensitive)
+- One type can be converted to another via [type conversion](./type-conversion.py)
 - Refer to [data-types.py](./data-types.py)
+
+#### Strings
+
+- Wrap text bw single or double quotes `print("Hello")`
+- Numbers can also be used as strings `print('5')`
+- Use quotes carefully and when required `print("Give me John's number")`
+- For multiline strings use the quotes 3 times
+- Use **formatted strings** for easy string concatenation
+- Refer to [strings.py](./strings.py)
 
 #### Operators
 
@@ -76,11 +86,6 @@ A playground to learn basics of python with small programs and my personal docs 
 - White spaces are ignored
 - Follows default mathematical BODMAS rule `2+2*5 = 12`
 - Don't use commas in bw numbers
-
-#### Strings
-
-- Wrap text bw single or double quotes `print("Hello")`
-- Numbers can also be used as strings `print('5')`
 
 #### Conditional Logic
 
