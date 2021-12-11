@@ -91,12 +91,14 @@ A playground to learn basics of python with small programs and my personal docs 
 - `'...' in name` - to check existence of a char in variable
 - Refer to [string-methods.py](./string-methods.py)
 
-#### Operators
+#### Arithmetic Operators
 
-- Adding(+), subtract(-), multiple(\*), divide (%)
+- Adding(+), subtract(-), multiple(\*), divide (/)
 - White spaces are ignored
 - Follows default mathematical BODMAS rule `2+2*5 = 12`
 - Don't use commas in bw numbers
+- `x*=5 => x = x * 5` - called **augmented assignment operator**
+- Refer to [arithmetic-operators.py](./arithmetic-operators.py)
 
 #### Conditional Logic
 
