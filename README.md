@@ -80,6 +80,17 @@ A playground to learn basics of python with small programs and my personal docs 
 - Use **formatted strings** for easy string concatenation
 - Refer to [strings.py](./strings.py)
 
+#### String Methods
+
+- Used to handle and do more things with strings
+- `len(name)` used to find the length of a string
+- `name.upper()` - to convert string to uppercase
+- `name.lower()` - to convert string to lowercase
+- `name.find()` - to find the index of characters
+- `name.replace()` - to replace one char to another
+- `'...' in name` - to check existence of a char in variable
+- Refer to [string-methods.py](./string-methods.py)
+
 #### Operators
 
 - Adding(+), subtract(-), multiple(\*), divide (%)
