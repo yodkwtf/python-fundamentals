@@ -100,6 +100,15 @@ A playground to learn basics of python with small programs and my personal docs 
 - `x*=5 => x = x * 5` - called **augmented assignment operator**
 - Refer to [arithmetic-operators.py](./arithmetic-operators.py)
 
+#### Math Functions
+
+- Several functions/methods to handle calculations
+- A few built in functions like `round(n)` and `abs(n)`
+- Import the `math` module and use its methods for complex stuff
+- Math module has methods like `math.ceil(n)` and `math.floor(n)`
+- Google _python <version> math modules_ to learn more methods
+- Refer to [math-functions.py](./math-functions.py)
+
 #### Conditional Logic
 
 - Every expression breaks down to true or false
