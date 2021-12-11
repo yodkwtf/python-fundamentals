@@ -44,12 +44,21 @@ A playground to learn basics of python with small programs and my personal docs 
 
 ## Python Notes
 
+Print your first ever python program
+
+```bash
+# first ever program
+print('Hello World!!!')
+```
+
 #### Comments
 
-- Can be used to explain code
-- Use `#` symbol to start a comment which will be ignored by python
+- Used to explain code as python ignores it
+- Use `#` symbol for single line comment
+- For multi-line comments wrap it inside `''' comment '''`
 - Can be put above or right next to any code
 - Can be used for line by line debugging
+- Refer to [comments.py](./comments.py)
 
 #### Variables
 
@@ -60,6 +69,14 @@ A playground to learn basics of python with small programs and my personal docs 
 - Case sensitive and can't be python keywords
 - Can be reset later after defining
 - Refer to [variables.py](./variables.py)
+
+#### Input
+
+- Used to get input from the user in terminal
+- Used as `input(<'Input details or question'>)`
+- Input can pe stored in a variable
+- Input function always returns a string even if user enters a number
+- Refer to [input.py](./input.py)
 
 #### Data Types
 
