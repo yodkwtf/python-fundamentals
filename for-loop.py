@@ -7,7 +7,7 @@ days = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
 
 for d in days: # for every day from days
   if d== 'Wed':
-    continue # skip tuesday
+    continue # skip Wednesday
   elif d=='Sat':
     break # stop loop if we hit saturday
   elif d== 'Sun':
