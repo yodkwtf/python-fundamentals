@@ -3,7 +3,7 @@ price = 10
 
 print(price)
  
-# reseting value
+# reseting value of a variable
 price = 20
 
 print(price)
