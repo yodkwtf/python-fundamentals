@@ -1,4 +1,4 @@
-# first comment
+# a single line comment
 
 '''
 this is a

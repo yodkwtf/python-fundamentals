@@ -1,6 +1,6 @@
 # Python Fundamentals
 
-A playground to learn basics of python with small programs and my personal docs based on them.
+A playground to learn basics of python with small programs and my personal docs based on those programmes.
 
 ## Why learn Python?
 
@@ -13,9 +13,9 @@ A playground to learn basics of python with small programs and my personal docs 
 ## Getting Python
 
 - Go to [www.python.org](https://www.python.org/)
-- Click the download btn and choose the best option for your system.
-- Install python and check the `python path` checkbox during the process.
-- Installed. 🚀
+- Click the download btn and choose the best option for your system
+- Install python and check the `python path` checkbox during the process
+- Installed! 🚀
 
 > To check if you have python, open a terminal like cmd and type `python --version`. If you have python in your system it will show the version or else you don't have it
 
