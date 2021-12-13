@@ -135,6 +135,14 @@ print('Hello World!!!')
 - If not condition is met, the program for the last `else` statement runs
 - Refer to [if-else.py](./if-else.py)
 
+#### Logical Operators
+
+- Used to combine multiple conditions
+- Used for with if-else statements a lot
+- `and` - both condition is true
+- `or` - any one condition is true
+- `not` - reverts the boolean value next to it
+- Refer to [logical-operators.py](./logical-operators.py)
 
 #### Functions
 
