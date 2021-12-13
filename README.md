@@ -15,7 +15,7 @@ A playground to learn basics of python with small programs and my personal docs 
 - Go to [www.python.org](https://www.python.org/)
 - Click the download btn and choose the best option for your system.
 - Install python and check the `python path` checkbox during the process.
-- Installed 🚀
+- Installed. 🚀
 
 > To check if you have python, open a terminal like cmd and type `python --version`. If you have python in your system it will show the version or else you don't have it
 
@@ -85,6 +85,7 @@ print('Hello World!!!')
 - `int` is for integers like 4, 7, 27328
 - `float` is for numbers with decimals like 3.2, 7839.83
 - `bool` is for True/False (case sensitive)
+- 'type(name)` - used to find the data type of a variable
 - One type can be converted to another via [type conversion](./type-conversion.py)
 - Refer to [data-types.py](./data-types.py)
 
