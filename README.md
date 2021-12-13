@@ -126,14 +126,15 @@ print('Hello World!!!')
 - Google _python <version> math modules_ to learn more methods
 - Refer to [math-functions.py](./math-functions.py)
 
-#### Conditional Logic
+#### If-Else Statements
 
-- Every expression breaks down to true or false
-- Used to do perform tasks based on certain conditions
-- Used with comparison operators and boolean values
-- For eg, `print(5==4)` will print false
-- `if-else` statements are used to perform conditional logic
+- Used to run programs based on conditions
+- Used a lot with comparison operators and boolean values
+- If a condition is met, the program runs and discards the rest of the condition
+- Starts with `if (condition)` and continues with `elif (condition)`
+- If not condition is met, the program for the last `else` statement runs
 - Refer to [if-else.py](./if-else.py)
+
 
 #### Functions
 
