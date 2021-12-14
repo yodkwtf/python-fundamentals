@@ -95,8 +95,8 @@ print('Hello World!!!')
 - Numbers can also be used as strings `print('5')`
 - Use quotes carefully and when required `print("Give me John's number")`
 - For multiline strings use the quotes 3 times
-- Use **formatted strings** for easy string concatenation
-- Refer to [strings.py](./strings.py)
+- Use [formatted strings](./03-strings/formatted-strings.py) for easy string concatenation
+- Refer to [strings.py](./03-strings/strings.py)
 
 #### String Methods
 
@@ -107,7 +107,7 @@ print('Hello World!!!')
 - `name.find()` - to find the index of characters
 - `name.replace()` - to replace one char to another
 - `'...' in name` - to check existence of a char in variable
-- Refer to [string-methods.py](./string-methods.py)
+- Refer to [string-methods.py](./03-strings/string-methods.py)
 
 #### Arithmetic Operators
 
