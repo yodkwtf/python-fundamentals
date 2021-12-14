@@ -145,6 +145,14 @@ print('Hello World!!!')
 - `not` - reverts the boolean value next to it
 - Refer to [logical-operators.py](./logical-operators.py)
 
+#### Comparison Operators
+
+- Used to compare 2 values (a variable with a value)
+- Operators are almost like math
+- `>`, `<`, `==`- used to compare which value is **greater**, **lesser**, or **equal**
+- `>=` and `<=` - To check the condition **greater than or equal to** and **less than or equal to**
+- Refer to [comparison-operators.py](./comparison-operators.py)
+
 #### Functions
 
 - Block of code with a name that can be executed when called
