@@ -19,7 +19,7 @@ A playground to learn basics of python with small programs and my personal docs 
 
 > To check if you have python, open a terminal like cmd and type `python --version`. If you have python in your system it will show the version or else you don't have it
 
-## Coding in Python
+## Python Environment
 
 - Open python from start menu in the default command line app
 - Write your first `hello world` program
@@ -150,7 +150,7 @@ print('Hello World!!!')
 - Used to compare 2 values (a variable with a value)
 - Operators are almost like math
 - `>`, `<`, `==`- used to compare which value is **greater**, **lesser**, or **equal**
-- `>=` and `<=` - To check the condition **greater than or equal to** and **less than or equal to**
+- `>=` and `<=` - checks the condition **greater than or equal to** and **less than or equal to**
 - Refer to [comparison-operators.py](./comparison-operators.py)
 
 #### Functions
@@ -179,3 +179,7 @@ print('Hello World!!!')
 - Use `import` keyword followed by the library name
 - Use the methods on the imported library or however the respective module works
 - Refer to [libraries.py](./libraries.py)
+
+## Exercises
+
+1. [Weight Converter Program](./exercises/weight-converter.py)
