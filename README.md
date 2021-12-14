@@ -148,10 +148,10 @@ print('Hello World!!!')
 
 - Used to run programs based on conditions
 - Used a lot with comparison operators and boolean values
-- If a condition is met, the program runs and discards the rest of the condition
-- Starts with `if (condition)` and continues with `elif (condition)`
-- If not condition is met, the program for the last `else` statement runs
-- Refer to [if-else.py](./if-else.py)
+- If a condition is met, the program runs and discards the rest of the conditions
+- Starts with `if (condition)` and continues till the last `else` statement
+- `elif` statements are used to created [nested if-else](./05-conditionals/nested-if-else.py) conditions
+- Refer to [if-else.py](./05-conditionals/if-else.py)
 
 #### Functions
 
