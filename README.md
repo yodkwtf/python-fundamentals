@@ -70,6 +70,15 @@ print('Hello World!!!')
 - Can be reset later after defining
 - Refer to [variables.py](./01-basics/variables.py)
 
+#### Math Functions
+
+- Several functions/methods to handle calculations
+- A few built in functions like `round(n)` and `abs(n)`
+- Import the `math` module and use its methods for complex stuff
+- Math module has methods like `math.ceil(n)` and `math.floor(n)`
+- Google _python <version> math modules_ to learn more methods
+- Refer to [math-functions.py](./01-basics/math-functions.py)
+
 #### Input
 
 - Used to get input from the user in terminal
@@ -117,15 +126,6 @@ print('Hello World!!!')
 - Don't use commas in bw numbers
 - `x*=5 => x = x * 5` - called **augmented assignment operator**
 - Refer to [arithmetic-operators.py](./04-operators/arithmetic-operators.py)
-
-#### Math Functions
-
-- Several functions/methods to handle calculations
-- A few built in functions like `round(n)` and `abs(n)`
-- Import the `math` module and use its methods for complex stuff
-- Math module has methods like `math.ceil(n)` and `math.floor(n)`
-- Google _python <version> math modules_ to learn more methods
-- Refer to [math-functions.py](./math-functions.py)
 
 #### Logical Operators
 
