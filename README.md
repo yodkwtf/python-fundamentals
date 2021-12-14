@@ -86,8 +86,8 @@ print('Hello World!!!')
 - `float` is for numbers with decimals like 3.2, 7839.83
 - `bool` is for True/False (case sensitive)
 - 'type(name)` - used to find the data type of a variable
-- One type can be converted to another via [type conversion](./type-conversion.py)
-- Refer to [data-types.py](./data-types.py)
+- One type can be converted to another via [type conversion](./02-data-types/type-conversion.py)
+- Refer to [data-types.py](./02-data-types/data-types.py)
 
 #### Strings
 
