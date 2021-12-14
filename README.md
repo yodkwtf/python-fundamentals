@@ -116,7 +116,7 @@ print('Hello World!!!')
 - Follows default mathematical BODMAS rule `2+2*5 = 12`
 - Don't use commas in bw numbers
 - `x*=5 => x = x * 5` - called **augmented assignment operator**
-- Refer to [arithmetic-operators.py](./arithmetic-operators.py)
+- Refer to [arithmetic-operators.py](./04-operators/arithmetic-operators.py)
 
 #### Math Functions
 
@@ -127,6 +127,23 @@ print('Hello World!!!')
 - Google _python <version> math modules_ to learn more methods
 - Refer to [math-functions.py](./math-functions.py)
 
+#### Logical Operators
+
+- Used to combine multiple conditions
+- Used for with if-else statements a lot
+- `and` - both condition is true
+- `or` - any one condition is true
+- `not` - reverts the boolean value next to it
+- Refer to [logical-operators.py](./04-operators/logical-operators.py)
+
+#### Comparison Operators
+
+- Used to compare 2 values (a variable with a value)
+- Operators are almost like math
+- `>`, `<`, `==`- used to compare which value is **greater**, **lesser**, or **equal**
+- `>=` and `<=` - checks the condition **greater than or equal to** and **less than or equal to**
+- Refer to [comparison-operators.py](./04-operators/comparison-operators.py)
+
 #### If-Else Statements
 
 - Used to run programs based on conditions
@@ -135,23 +152,6 @@ print('Hello World!!!')
 - Starts with `if (condition)` and continues with `elif (condition)`
 - If not condition is met, the program for the last `else` statement runs
 - Refer to [if-else.py](./if-else.py)
-
-#### Logical Operators
-
-- Used to combine multiple conditions
-- Used for with if-else statements a lot
-- `and` - both condition is true
-- `or` - any one condition is true
-- `not` - reverts the boolean value next to it
-- Refer to [logical-operators.py](./logical-operators.py)
-
-#### Comparison Operators
-
-- Used to compare 2 values (a variable with a value)
-- Operators are almost like math
-- `>`, `<`, `==`- used to compare which value is **greater**, **lesser**, or **equal**
-- `>=` and `<=` - checks the condition **greater than or equal to** and **less than or equal to**
-- Refer to [comparison-operators.py](./comparison-operators.py)
 
 #### Functions
 
