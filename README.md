@@ -58,7 +58,7 @@ print('Hello World!!!')
 - For multi-line comments wrap it inside `''' comment '''`
 - Can be put above or right next to any code
 - Can be used for line by line debugging
-- Refer to [comments.py](./comments.py)
+- Refer to [comments.py](./01-basics/comments.py)
 
 #### Variables
 
@@ -68,7 +68,7 @@ print('Hello World!!!')
 - Shouldn't start w number
 - Case sensitive and can't be python keywords
 - Can be reset later after defining
-- Refer to [variables.py](./variables.py)
+- Refer to [variables.py](./01-basics/variables.py)
 
 #### Input
 
@@ -76,7 +76,7 @@ print('Hello World!!!')
 - Used as `input(<'Input details or question'>)`
 - Input can pe stored in a variable
 - Input function always returns a string even if user enters a number
-- Refer to [input.py](./input.py)
+- Refer to [input.py](./01-basics/input.py)
 
 #### Data Types
 
