@@ -191,3 +191,4 @@ print('Hello World!!!')
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
 2. [Guessing Game](./exercises/guessing-game.py)
+<!-- 3. [Car Game](./exercises/car-game.py) -->
