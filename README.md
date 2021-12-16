@@ -153,6 +153,13 @@ print('Hello World!!!')
 - `elif` statements are used to created [nested if-else](./05-conditionals/nested-if-else.py) conditions
 - Refer to [if-else.py](./05-conditionals/if-else.py)
 
+#### While Loop
+
+- Used to execute a block of code multiple times
+- Code block keep reiterating as long as the condition given is true
+- Can use used to create patterns and small games
+- Refer to [while-loops.py](./06-loops/while-loop.py)
+
 #### Functions
 
 - Block of code with a name that can be executed when called
@@ -167,7 +174,6 @@ print('Hello World!!!')
 
 #### Loops
 
-- Used to executed a block of code multiple times
 - 2 types are **while loops** & **for loops**
 - Use `break` to stop and exit the loop
 - Use `continue` to skip over current iteration
