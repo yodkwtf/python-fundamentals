@@ -189,3 +189,4 @@ print('Hello World!!!')
 ## Exercises
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
+2. [Guessing Game](./exercises/guessing-game.py)
