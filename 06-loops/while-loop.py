@@ -8,11 +8,11 @@ while (x < 3): # while x is less than 3
 print("Done")
 
 ## PATTERN
-print('----#### Pattern ####----')
+print('-------------------------')
 i = 1
 output = ''
 
 while i<=5:
-  output = f'{output}{i}'
+  output = f'{output} {i}'
   print(output)
   i+=1
