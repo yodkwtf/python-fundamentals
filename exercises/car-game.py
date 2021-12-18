@@ -7,3 +7,28 @@
 #  `random commands` -  says "I don't understand the command"
 
 ## SOLUTION
+
+
+help_msg = """
+ start - to start the car
+ stop - to stop the car
+ exit - to exit the program
+"""
+start_msg = "Car started...Let's go!!!"
+stop_msg = "Car stopped."
+error_msg = "Sorry, I don't understand..."
+
+while 2 > 1:
+  command = input('>')
+
+  if command == 'help':
+    print(help_msg)
+  elif command == 'start':
+    print(start_msg)
+  elif command == 'stop':
+    print(stop_msg)
+  elif command == 'quit':
+    break
+  else:
+    print(error_msg)
+
