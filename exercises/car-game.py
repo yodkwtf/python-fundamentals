@@ -19,7 +19,7 @@ stop_msg = "Car stopped."
 error_msg = "Sorry, I don't understand..."
 
 while 2 > 1:
-  command = input('>')
+  command = input('>').lower()
 
   if command == 'help':
     print(help_msg)
