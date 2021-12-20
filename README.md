@@ -161,6 +161,15 @@ print('Hello World!!!')
 - `else` can be used with while loops
 - Refer to [while-loops.py](./06-loops/while-loop.py)
 
+#### For Loops
+
+- Used to iterate over a collection - For eg, each character of a string
+- In each iteration, loop variable holds one character value at a time
+- `for i in 'Python'` - Here `i` is the loop variable and `Python` is iterable string
+- Built-in `range()` func is used to loop over a range of numbers
+- `range()` func can take arguments in multiple ways
+- Refer to [for-loops.py](./06-loops/for-loop.py)
+
 #### Functions
 
 - Block of code with a name that can be executed when called
@@ -191,4 +200,4 @@ print('Hello World!!!')
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
 2. [Guessing Game](./exercises/guessing-game.py)
-<!-- 3. [Car Game](./exercises/car-game.py) -->
+3. [Car Game](./exercises/car-game.py)
