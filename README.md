@@ -170,6 +170,12 @@ print('Hello World!!!')
 - `range()` func can take arguments in multiple ways
 - Refer to [for-loops.py](./06-loops/for-loop.py)
 
+#### Nested Loops
+
+- One loop can be nested inside another loop
+- Used to create complex programs like getting graph coordinates
+- Refer to [nested-loops.py](./06-loops/nested-loops.py)
+
 #### Functions
 
 - Block of code with a name that can be executed when called
