@@ -174,6 +174,7 @@ print('Hello World!!!')
 
 - One loop can be nested inside another loop
 - Used to create complex programs like getting graph coordinates
+- Can be used to create various patterns
 - Refer to [nested-loops.py](./06-loops/nested-loops.py)
 
 #### Functions
