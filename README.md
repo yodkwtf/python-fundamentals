@@ -174,7 +174,10 @@ print('Hello World!!!')
 
 - One loop can be nested inside another loop
 - Used to create complex programs like getting graph coordinates
-- Can be used to create various patterns
+- Can be used to create various patterns or complex programs
+- Use [break and continue statements](./06-loops/continue-break-statements.py) for further control of loops
+  - `break` - stop and exit the loop
+  - `continue` - skip over current iteration
 - Refer to [nested-loops.py](./06-loops/nested-loops.py)
 
 #### Functions
@@ -192,8 +195,6 @@ print('Hello World!!!')
 #### Loops
 
 - 2 types are **while loops** & **for loops**
-- Use `break` to stop and exit the loop
-- Use `continue` to skip over current iteration
 - Refer to [for-loop.py](./for-loop.py) and [while-loop.py](./while-loop.py)
 
 #### Importing Libraries and Modules
