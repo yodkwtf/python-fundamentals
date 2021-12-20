@@ -24,3 +24,15 @@ for i in range(13, 18):
 # print numbers at a step of 2
 for i in range(21, 30, 2):
   print(i)
+
+
+## EXERCISE
+# print total cart price of items in cart with given prices for the items
+
+prices = [10, 20, 30]
+total_sum = 0
+
+for price in prices:
+  total_sum += price
+
+print(f'The total cart price is {total_sum}')
