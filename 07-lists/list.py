@@ -13,3 +13,15 @@ print(names[1:4]) # prints items from first range up to the 2nd
 # updating list item using index
 names[0] = 'Jon'
 print(names)
+
+## EXERCISE
+# write a program to find the largest no. in a list
+
+numbers = [1, 9, 2, 76, 4, 7, 45, -55, 3, 6, 8, 5]
+largest_num = numbers[0] # assume
+
+for n in numbers:
+  if n > largest_num: # if current no. is bigger replace max variable
+    largest_num = n
+  
+print(largest_num)
