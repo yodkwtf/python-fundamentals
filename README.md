@@ -180,6 +180,16 @@ print('Hello World!!!')
   - `continue` - skip over current iteration
 - Refer to [nested-loops.py](./06-loops/nested-loops.py)
 
+#### Lists
+
+- Used to store a collection of values of different data types
+- Items are put inside the square brackets `['John', 'Peter', 'Josh']`
+- Single items can be accessed using their index
+- We can also get a range of items using index - `names[2:4]`
+- Range doesn't modify the list, they return a new list
+- List items can also be updated using their index
+- Refer to [lists.py](./07-lists/list.py)
+
 #### Functions
 
 - Block of code with a name that can be executed when called
@@ -191,11 +201,6 @@ print('Hello World!!!')
 - If-else statements can be used inside functions
 - Values can also be returned from function after executions
 - Refer to [functions.py](./functions.py)
-
-#### Loops
-
-- 2 types are **while loops** & **for loops**
-- Refer to [for-loop.py](./for-loop.py) and [while-loop.py](./while-loop.py)
 
 #### Importing Libraries and Modules
 
