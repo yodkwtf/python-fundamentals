@@ -209,6 +209,15 @@ print('Hello World!!!')
 - `list.copy()` - to create a copy of the list that doesn't get affected when the original list is manipulated
 - Refer to [list-methods.py](./07-lists/list-methods.py) for more
 
+#### Tuples
+
+- Used to store a collection of items just like lists
+- Defined using _parenthesis_ - `('John', 'Peter', 'Josh')`
+- Immutable - items can't be added or removed
+- Single items can be accessed using indexes
+- Since they're immutable, there aren't a lot of methods for tuples unlike lists
+- `count()` and `index()` can be used to get count and index of the specified item
+
 #### Functions
 
 - Block of code with a name that can be executed when called
