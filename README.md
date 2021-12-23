@@ -190,6 +190,15 @@ print('Hello World!!!')
 - List items can also be updated using their index
 - Refer to [lists.py](./07-lists/list.py)
 
+#### 2-D Lists
+
+- Used to create a maths like matrix by nesting multiple lists inside a parent list
+- Used a lot in data science and ML
+- Each child list represents one row of the parent matrix
+- Individual items can be referenced using 2 brackets indexes
+- Items can also be modified using the same way `items[2][1]`
+- Refer to [2D-lists.py](./07-lists/2D-lists.py)
+
 #### Functions
 
 - Block of code with a name that can be executed when called
