@@ -81,7 +81,6 @@ print('Hello World!!!')
 - Input can pe stored in a variable
 - Input function always returns a string even if user enters a number
 - Refer to [input.py](./01-basics/input.py)
--
 
 #### Math Functions
 
@@ -94,22 +93,24 @@ print('Hello World!!!')
 
 ## 2. Data Types in Python
 
-#### Data Types Basics
-
 - There are multiple data types in python
 - `str` represents strings - any text or characters
 - `int` is for integers like 4, 7, 27328
 - `float` is for numbers with decimals like 3.2, 7839.83
 - `bool` is for True/False (case sensitive)
-- 'type(name)` - used to find the data type of a variable
-- One type can be converted to another via [type conversion](./02-data-types/type-conversion.py)
+- `type(name)` - used to find the data type of a variable
 - Refer to [data-types.py](./02-data-types/data-types.py)
+
+#### Type Conversion
+
+- One data type can be converted into another
+- Built-in functions like `str()`, `int()` can be used for this
+- `int('birthday')` - converts the string into integer
+- Refer to [type-conversion.py](./02-data-types/type-conversion.py)
 
 ## 3. Strings and String Methods
 
-#### Basics of Strings
-
-- Wrap text bw single or double quotes `print("Hello")`
+- Wrap text b/w single or double quotes to create strings - `print("Hello")`
 - Numbers can also be used as strings `print('5')`
 - Use quotes carefully and when required `print("Give me John's number")`
 - For multiline strings use the quotes 3 times
@@ -155,9 +156,7 @@ print('Hello World!!!')
 - `>=` and `<=` - checks the condition **greater than or equal to** and **less than or equal to**
 - Refer to [comparison-operators.py](./04-operators/comparison-operators.py)
 
-## 5. Conditional Statements
-
-#### If-Else Statements
+## 5. If-Else Statements
 
 - Used to run programs based on conditions
 - Used a lot with comparison operators and boolean values
@@ -197,9 +196,7 @@ print('Hello World!!!')
 
 ## 7. Lists and List Methods
 
-#### List Basics
-
-- Used to store a collection of values of different data types
+- Lists are used to store a collection of values of different data types
 - Items are put inside the square brackets `['John', 'Peter', 'Josh']`
 - Single items can be accessed using their index
 - We can also get a range of items using index - `names[2:4]`
@@ -226,9 +223,7 @@ print('Hello World!!!')
 - `list.copy()` - to create a copy of the list that doesn't get affected when the original list is manipulated
 - Refer to [list-methods.py](./07-lists/list-methods.py) for more
 
-## 8. All About Tuples
-
-#### Tuples
+## 8. Tuples in Python
 
 - Used to store a collection of items just like lists
 - Defined using _parenthesis_ - `('John', 'Peter', 'Josh')`
@@ -266,9 +261,7 @@ product3 = x * y * z
 
 ## 9. Sets in Python
 
-#### Basics of Sets
-
-- A collection of items with no duplicates
+- Set is a collection of items with no duplicates
 - Defined by curly braces - `{1, 2, 3}`
 - A list can be converted into set using **set** function
 - Sets are unordered so items cannot be accessed using indexes
@@ -284,9 +277,7 @@ product3 = x * y * z
 - `set1 ^ set2` - returns symmetric difference b/w 2 sets
 - Refer to [mathematical-operations.py](./09-sets/mathematical-operations.py)
 
-## 10. Dictionaries
-
-#### Dictionary Basics
+## 10. Dictionaries in Python
 
 - Used to store a collection of key-value pairs
 - Every key must be unique
