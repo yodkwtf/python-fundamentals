@@ -52,6 +52,7 @@ Print your first ever python program
 # first ever program
 print('Hello World!!!')
 ```
+
 ## 1. Python Basics
 
 #### Comments
@@ -80,7 +81,8 @@ print('Hello World!!!')
 - Input can pe stored in a variable
 - Input function always returns a string even if user enters a number
 - Refer to [input.py](./01-basics/input.py)
-- 
+-
+
 #### Math Functions
 
 - Several functions/methods to handle calculations
@@ -91,7 +93,7 @@ print('Hello World!!!')
 - Refer to [math-functions.py](./01-basics/math-functions.py)
 
 ## 2. Data Types in Python
-  
+
 #### Data Types Basics
 
 - There are multiple data types in python
@@ -102,7 +104,7 @@ print('Hello World!!!')
 - 'type(name)` - used to find the data type of a variable
 - One type can be converted to another via [type conversion](./02-data-types/type-conversion.py)
 - Refer to [data-types.py](./02-data-types/data-types.py)
-  
+
 ## 3. Strings and String Methods
 
 #### Basics of Strings
@@ -126,7 +128,7 @@ print('Hello World!!!')
 - Refer to [string-methods.py](./03-strings/string-methods.py)
 
 ## 4. Operators and Types of Operators
-  
+
 #### Arithmetic Operators
 
 - Adding(+), subtract(-), multiple(\*), divide (/)
@@ -152,9 +154,9 @@ print('Hello World!!!')
 - `>`, `<`, `==`- used to compare which value is **greater**, **lesser**, or **equal**
 - `>=` and `<=` - checks the condition **greater than or equal to** and **less than or equal to**
 - Refer to [comparison-operators.py](./04-operators/comparison-operators.py)
-               
+
 ## 5. Conditional Statements
-               
+
 #### If-Else Statements
 
 - Used to run programs based on conditions
@@ -165,7 +167,7 @@ print('Hello World!!!')
 - Refer to [if-else.py](./05-conditionals/if-else.py)
 
 ## 6. Loops in Python
-               
+
 #### While Loops
 
 - Used to execute a block of code multiple times
@@ -194,7 +196,7 @@ print('Hello World!!!')
 - Refer to [nested-loops.py](./06-loops/nested-loops.py)
 
 ## 7. Lists and List Methods
-               
+
 #### List Basics
 
 - Used to store a collection of values of different data types
@@ -225,7 +227,7 @@ print('Hello World!!!')
 - Refer to [list-methods.py](./07-lists/list-methods.py) for more
 
 ## 8. All About Tuples
-               
+
 #### Tuples
 
 - Used to store a collection of items just like lists
@@ -262,8 +264,28 @@ product3 = x * y * z
 
 ```
 
-## 10. Dictionaries 
-               
+## 9. Sets in Python
+
+#### Basics of Sets
+
+- A collection of items with no duplicates
+- Defined by curly braces - `{1, 2, 3}`
+- A list can be converted into set using **set** function
+- Sets are unordered so items cannot be accessed using indexes
+- Has several built-in methods like `add()`, `remove()`, `len()`, etc.
+- Refer to [sets.py](./09-sets/sets.py)
+
+#### Mathematical Operations of Sets
+
+- Sets support powerful mathematical operations
+- `set1 | set2` - returns union of 2 sets
+- `set1 & set2` - returns intersection of 2 sets
+- `set1 - set2` - returns difference b/w 2 sets
+- `set1 ^ set2` - returns symmetric difference b/w 2 sets
+- Refer to [mathematical-operations.py](./09-sets/mathematical-operations.py)
+
+## 10. Dictionaries
+
 #### Dictionary Basics
 
 - Used to store a collection of key-value pairs
@@ -272,7 +294,7 @@ product3 = x * y * z
 - Items can also be modified the same way
 - New key value pairs can also be added later using `[]` brackets
 - Refer to [dictionary.py](./10-dictionaries/dictionary.py)
-  
+
 ## 11 - Functions in Python
 
 #### Functions
