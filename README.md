@@ -245,6 +245,15 @@ product3 = x * y * z
 
 ```
 
+#### Dictionaries
+
+- Used to store a collection of key-value pairs
+- Every key must be unique
+- Values can be accessed using the `[]` brackets to target specific keys
+- Items can also be modified the same way
+- New key value pairs can also be added later using `[]` brackets
+- Refer to [dictionary.py](./10-dictionaries/dictionary.py)
+
 #### Functions
 
 - Block of code with a name that can be executed when called
