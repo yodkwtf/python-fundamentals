@@ -199,6 +199,16 @@ print('Hello World!!!')
 - Items can also be modified using the same way `items[2][1]`
 - Refer to [2D-lists.py](./07-lists/2D-lists.py)
 
+#### List Methods
+
+- Built-in functions/operations for lists
+- `sort()` - to sort the list in ascending order
+- `reverse()` - to reverse direction of the list
+- `append(n)` - to add n to the end of the list
+- `remove(n)` - to remove n from the list
+- `list.copy()` - to create a copy of the list that doesn't get affected when the original list is manipulated
+- Refer to [list-methods.py](./07-lists/list-methods.py) for more
+
 #### Functions
 
 - Block of code with a name that can be executed when called
