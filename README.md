@@ -35,14 +35,16 @@ A playground to learn basics of python with small programs and my personal docs 
 
 #### IDEs
 
-- Get an IDE like VS Code for your system
+- Get an IDE like [VS Code](https://code.visualstudio.com/) for your system
 - Open vscode and configure it to look pretty
-- Get the `python` extension by microsoft
+- Get the [python extension by microsoft](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - Select the python intrepreter using command palette and set it as downloaded python version
 - Open the python file and run it using play btn
 - Code will be executed!
 
-## Python Notes
+> We can use any one of the several IDE's available online to run python code like PyCharm, Jupyter Notebook, etc.
+
+# Notes
 
 Print your first ever python program
 
@@ -50,6 +52,7 @@ Print your first ever python program
 # first ever program
 print('Hello World!!!')
 ```
+## 1. Python Basics
 
 #### Comments
 
@@ -70,6 +73,14 @@ print('Hello World!!!')
 - Can be reset later after defining
 - Refer to [variables.py](./01-basics/variables.py)
 
+#### Input Function
+
+- Used to get input from the user in terminal
+- Used as `input(<'Input details or question'>)`
+- Input can pe stored in a variable
+- Input function always returns a string even if user enters a number
+- Refer to [input.py](./01-basics/input.py)
+- 
 #### Math Functions
 
 - Several functions/methods to handle calculations
@@ -79,15 +90,9 @@ print('Hello World!!!')
 - Google _python <version> math modules_ to learn more methods
 - Refer to [math-functions.py](./01-basics/math-functions.py)
 
-#### Input
-
-- Used to get input from the user in terminal
-- Used as `input(<'Input details or question'>)`
-- Input can pe stored in a variable
-- Input function always returns a string even if user enters a number
-- Refer to [input.py](./01-basics/input.py)
-
-#### Data Types
+## 2. Data Types in Python
+  
+#### Data Types Basics
 
 - There are multiple data types in python
 - `str` represents strings - any text or characters
@@ -97,8 +102,10 @@ print('Hello World!!!')
 - 'type(name)` - used to find the data type of a variable
 - One type can be converted to another via [type conversion](./02-data-types/type-conversion.py)
 - Refer to [data-types.py](./02-data-types/data-types.py)
+  
+## 3. Strings and String Methods
 
-#### Strings
+#### Basics of Strings
 
 - Wrap text bw single or double quotes `print("Hello")`
 - Numbers can also be used as strings `print('5')`
@@ -118,6 +125,8 @@ print('Hello World!!!')
 - `'...' in name` - to check existence of a char in variable
 - Refer to [string-methods.py](./03-strings/string-methods.py)
 
+## 4. Operators and Types of Operators
+  
 #### Arithmetic Operators
 
 - Adding(+), subtract(-), multiple(\*), divide (/)
@@ -143,7 +152,9 @@ print('Hello World!!!')
 - `>`, `<`, `==`- used to compare which value is **greater**, **lesser**, or **equal**
 - `>=` and `<=` - checks the condition **greater than or equal to** and **less than or equal to**
 - Refer to [comparison-operators.py](./04-operators/comparison-operators.py)
-
+               
+## 5. Conditional Statements
+               
 #### If-Else Statements
 
 - Used to run programs based on conditions
@@ -153,6 +164,8 @@ print('Hello World!!!')
 - `elif` statements are used to created [nested if-else](./05-conditionals/nested-if-else.py) conditions
 - Refer to [if-else.py](./05-conditionals/if-else.py)
 
+## 6. Loops in Python
+               
 #### While Loops
 
 - Used to execute a block of code multiple times
@@ -180,7 +193,9 @@ print('Hello World!!!')
   - `continue` - skip over current iteration
 - Refer to [nested-loops.py](./06-loops/nested-loops.py)
 
-#### Lists
+## 7. Lists and List Methods
+               
+#### List Basics
 
 - Used to store a collection of values of different data types
 - Items are put inside the square brackets `['John', 'Peter', 'Josh']`
@@ -209,6 +224,8 @@ print('Hello World!!!')
 - `list.copy()` - to create a copy of the list that doesn't get affected when the original list is manipulated
 - Refer to [list-methods.py](./07-lists/list-methods.py) for more
 
+## 8. All About Tuples
+               
 #### Tuples
 
 - Used to store a collection of items just like lists
@@ -219,7 +236,7 @@ print('Hello World!!!')
 - `count()` and `index()` can be used to get count and index of the specified item
 - Refer to [tuples.py](./08-tuples/tuples.py)
 
-#### Unpacking in Python
+## Bonus - Unpacking in Python
 
 - Used to destructure list/tuple items into separate individual variables
 - Makes it easy to access single items when they are being repeated many times
@@ -245,7 +262,9 @@ product3 = x * y * z
 
 ```
 
-#### Dictionaries
+## 10. Dictionaries 
+               
+#### Dictionary Basics
 
 - Used to store a collection of key-value pairs
 - Every key must be unique
@@ -253,6 +272,8 @@ product3 = x * y * z
 - Items can also be modified the same way
 - New key value pairs can also be added later using `[]` brackets
 - Refer to [dictionary.py](./10-dictionaries/dictionary.py)
+  
+## 11 - Functions in Python
 
 #### Functions
 
@@ -266,14 +287,7 @@ product3 = x * y * z
 - Values can also be returned from function after executions
 - Refer to [functions.py](./functions.py)
 
-#### Importing Libraries and Modules
-
-- Can be imported to built stuff on top of pre existing code
-- Use `import` keyword followed by the library name
-- Use the methods on the imported library or however the respective module works
-- Refer to [libraries.py](./libraries.py)
-
-## Exercises
+# Exercises
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
 2. [Guessing Game](./exercises/guessing-game.py)
