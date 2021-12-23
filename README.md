@@ -217,6 +217,33 @@ print('Hello World!!!')
 - Single items can be accessed using indexes
 - Since they're immutable, there aren't a lot of methods for tuples unlike lists
 - `count()` and `index()` can be used to get count and index of the specified item
+- Refer to [tuples.py](./08-tuples/tuples.py)
+
+#### Unpacking in Python
+
+- Used to destructure list/tuple items into separate individual variables
+- Makes it easy to access single items when they are being repeated many times
+
+```bash
+# a list or a tuple
+coordinates = [1, 2, 3]
+
+# ❌ product of items w/o destructuring
+product1 = coordinates[0] * coordinates[1] * coordinates[2]
+
+# ❌ product of items with destructuring w/o unpacking
+a = coordinates[0]
+b = coordinates[1]
+c = coordinates[2]
+product2 = a * b * c
+
+# ✅ destructuring using unpacking
+x, y, z = coordinates
+product3 = x * y * z
+
+# All 3 products will return the same value but it can easily be observed that the 3rd way makes things much more simple than the other two.
+
+```
 
 #### Functions
 
