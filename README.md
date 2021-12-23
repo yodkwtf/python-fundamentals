@@ -275,7 +275,7 @@ product3 = x * y * z
 - Has several built-in methods like `add()`, `remove()`, `len()`, etc.
 - Refer to [sets.py](./09-sets/sets.py)
 
-#### Mathematical Operations of Sets
+#### Mathematical Operations on Sets
 
 - Sets support powerful mathematical operations
 - `set1 | set2` - returns union of 2 sets
@@ -295,7 +295,7 @@ product3 = x * y * z
 - New key value pairs can also be added later using `[]` brackets
 - Refer to [dictionary.py](./10-dictionaries/dictionary.py)
 
-## 11 - Functions in Python
+## 11. Functions in Python
 
 #### Functions
 
