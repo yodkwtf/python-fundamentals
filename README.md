@@ -93,6 +93,8 @@ print('Hello World!!!')
 
 ## 2. Data Types in Python
 
+#### Data Types
+  
 - There are multiple data types in python
 - `str` represents strings - any text or characters
 - `int` is for integers like 4, 7, 27328
@@ -110,7 +112,9 @@ print('Hello World!!!')
 
 ## 3. Strings and String Methods
 
-- Wrap text b/w single or double quotes to create strings - `print("Hello")`
+#### Basics of Strings
+  
+- Wrap text b/w single or double quotes - `print("Hello")`
 - Numbers can also be used as strings `print('5')`
 - Use quotes carefully and when required `print("Give me John's number")`
 - For multiline strings use the quotes 3 times
@@ -196,7 +200,9 @@ print('Hello World!!!')
 
 ## 7. Lists and List Methods
 
-- Lists are used to store a collection of values of different data types
+#### Basics of Lists
+  
+- Used to store a collection of values of different data types
 - Items are put inside the square brackets `['John', 'Peter', 'Josh']`
 - Single items can be accessed using their index
 - We can also get a range of items using index - `names[2:4]`
@@ -261,6 +267,8 @@ product3 = x * y * z
 
 ## 9. Sets in Python
 
+#### Basics of Sets
+  
 - Set is a collection of items with no duplicates
 - Defined by curly braces - `{1, 2, 3}`
 - A list can be converted into set using **set** function
