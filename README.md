@@ -323,6 +323,13 @@ product3 = x * y * z
 - Must come after the positional arguments if we have both
 - Refer to [keyword-arguments.py](./11-functions/keyword-arguments.py)
 
+#### Return Statement
+
+- Functions can also return values using return statement
+- Useful when performing calculations inside functions
+- By default, all functions return the value **None**
+- Refer to [return-statement.py](./11-functions/return-statement.py)
+
 # Exercises
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
