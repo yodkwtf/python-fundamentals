@@ -347,6 +347,22 @@ except ValueError:
 
 - We can have multiple exceptions (except blocks) to handle different kinds of errors
 
+## 12. Object Oriented Programming
+
+#### Classes
+
+- Used to define new types or create blueprint for objects
+- Can have their own methods just like strings, lists, dictionaries, etc.
+- Defined by using _class keyword_ followed by a _PascalCased_ name by convention - `class EmailClient`
+
+#### Objects
+
+- Objects are the instances of a class
+- Can have as many instances as we want but **each object is a different instance of the parent class**
+- Defined by calling the class and is stored in a variable - `point1 = Point()`
+- Have access to all the methods defined in their parent class - `point1.methodName()`
+- Can also have attributes along with methods
+
 # Exercises
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
