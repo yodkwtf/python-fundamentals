@@ -312,14 +312,16 @@ product3 = x * y * z
 - **Arguments** are actual information passed into the function when called
 - Make functions more dynamic
 - We can also have multiple parameters for a single function
-- Order of the argument matters
+- Order/Position of the argument matters
 - Refer to [parameters-arguments.py](./11-functions/parameters.py)
 
-<!--
-- Can take arguments as function parameters
-- If-else statements can be used inside functions
-- Values can also be returned from function after executions
-- Refer to [functions.py](./functions.py) -->
+#### Keyword Arguments
+
+- Order of the arguments doesn't matter when using keyword argument
+- Are used to improve the readability of the code
+- Used by writing parameter name followed by the argument value when calling a function
+- Must come after the positional arguments if we have both
+- Refer to [keyword-arguments.py](./11-functions/keyword-arguments.py)
 
 # Exercises
 
