@@ -330,6 +330,23 @@ product3 = x * y * z
 - By default, all functions return the value **None**
 - Refer to [return-statement.py](./11-functions/return-statement.py)
 
+## Bonus - Try and Except
+
+- Used to handle errors in python programs
+- Main code is written under try block and except block customizes the results based on the type of the error
+
+```bash
+# normal code
+try:
+  age = int(input('Age: '))
+  print(age)
+# code when there's a value error
+except ValueError:
+  print('Please provide a number...')
+```
+
+- We can have multiple exceptions (except blocks) to handle different kinds of errors
+
 # Exercises
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
