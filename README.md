@@ -303,7 +303,18 @@ product3 = x * y * z
 - Can be built-in like `print()` or can be manually created
 - Created by using the **def** keyword followed by function name and parenthesis
 - Cannot be called before defining it
+- Can be called as many as required
 - Refer to [functions.py](./11-functions/functions.py)
+
+#### Parameters and Arguments
+
+- **Parameters** act as placeholders for info passed to the functions
+- **Arguments** are actual information passed into the function when called
+- Make functions more dynamic
+- We can also have multiple parameters for a single function
+- Order of the argument matters
+- Refer to [parameters-arguments.py](./11-functions/parameters.py)
+
 <!--
 - Can take arguments as function parameters
 - If-else statements can be used inside functions
