@@ -413,6 +413,14 @@ except ValueError:
 - We have modules for _date-and-time_, _sending-emails_, _generating-random-values_, and much more
 - Refer to [built-in-modules](./13-modules-and-packages/built-in-modules) for an example.
 
+#### _pathlib_ Module
+
+- Built-in module used to work with directories in python
+- Import _Path_ class from _pathlib_ module and access all of its methods
+- Path instance can be created either by providing absolute path or relative path
+- Can be used for automation programs like automating excel sheets, etc.
+- Refer to [pathlib-module](./13-modules-and-packages/pathlib-module.py) to see a few examples.
+
 # Exercises
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
