@@ -374,6 +374,14 @@ except ValueError:
 - Attributes can also be modified later as they're not set in stone by constructors
 - Refer to [constructors.py](./12-objects/constructors.py)
 
+#### Inheritance
+
+- Allows us to reference methods of one class to another
+- A parent class has the base methods and the child classes inherit the required methods from that parent class
+- Child classes can have their own methods as well along with the inherited ones
+- `class Child(Parent)` - _Child_ class will inherit all the methods of the _Parent_ class
+- Refer to [inheritance.py](./12-objects/inheritance.py)
+
 # Exercises
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
