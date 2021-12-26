@@ -353,7 +353,9 @@ except ValueError:
 
 - Used to define new types or create blueprint for objects
 - Can have their own methods just like strings, lists, dictionaries, etc.
+- Every method in a class should have the **self** parameter
 - Defined by using _class keyword_ followed by a _PascalCased_ name by convention - `class EmailClient`
+- Refer to [classes-and-objects.py](./12-objects/classes.py)
 
 #### Objects
 
@@ -362,6 +364,15 @@ except ValueError:
 - Defined by calling the class and is stored in a variable - `point1 = Point()`
 - Have access to all the methods defined in their parent class - `point1.methodName()`
 - Can also have attributes along with methods
+- Refer to [classes-and-objects.py](./12-objects/classes.py)
+
+#### Constructors
+
+- A function that gets called at the time of creating an object
+- Lets us have pre defined attributes for our objects using constructor parameters
+- Defined by using `__init__(self, other_parameters)` method which creates the objects
+- Attributes can also be modified later as they're not set in stone by constructors
+- Refer to [constructors.py](./12-objects/constructors.py)
 
 # Exercises
 
