@@ -391,9 +391,9 @@ except ValueError:
 - Makes the code more reusable as a module can be imported into other programs too
 - Imported module act as an object so the module functions are the methods of that object
 - Specific functions can also be directly imported from a module
-- Refer to [modules](./13-modules-and-packages/modules) for info.
+- Refer to [modules](./13-modules-and-packages/modules) for an example.
 
-#### Packages Basics
+#### Packages in Python
 
 - Another way to organize code when there are a lot of modules
 - Can be called as a container for multiple similar modules
@@ -402,7 +402,16 @@ except ValueError:
 - Ways to import modules and their function from packages -
   - `import package.module` - imports the whole module
   - `from package.module import func_1, func_2` - imports specific functions from modules
-- Refer to [packages](./13-modules-and-packages/packages) for info.
+- Refer to [packages](./13-modules-and-packages/packages) for an example.
+
+#### Built-In Modules
+
+- Python comes with a standard library that contains several modules to perform basic common tasks
+- It makes code reusable and we don't have to start from scratch every time
+- Search for `python 3 module index` to find the standard library on google
+- This will give us list of all the modules already built into python
+- We have modules for _date-and-time_, _sending-emails_, _generating-random-values_, and much more
+- Refer to [built-in-modules](./13-modules-and-packages/built-in-modules) for an example.
 
 # Exercises
 
