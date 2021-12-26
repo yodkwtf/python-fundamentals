@@ -415,11 +415,23 @@ except ValueError:
 
 #### _pathlib_ Module
 
-- Built-in module used to work with directories in python
-- Import _Path_ class from _pathlib_ module and access all of its methods
+- A built-in module used to work with directories in python
+- Import `Path` class from `pathlib` module and access all of its methods
 - Path instance can be created either by providing absolute path or relative path
-- Can be used for automation programs like automating excel sheets, etc.
 - Refer to [pathlib-module](./13-modules-and-packages/pathlib-module.py) to see a few examples.
+
+#### PyPi and Pip
+
+- Python Package Index (`PyPi`) - Directory with tons of cool external packages
+- These packages are built by python devs for their projects and then published for the whole community to use
+- Not every package is complete or bug free, some might even be in development mode so choose carefully
+- Visit [pypi.org](https://pypi.org/) to find all these packages.
+
+##### Pip
+
+- `pip` - A tool installed with python, used to install external packages from `PyPi`
+- `pip install <package_name>` - Command to install a package
+- After installing, we can normally import the package and its modules into our program
 
 # Exercises
 
