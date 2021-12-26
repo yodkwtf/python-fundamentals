@@ -391,7 +391,7 @@ except ValueError:
 - Makes the code more reusable as a module can be imported into other programs too
 - Imported module act as an object so the module functions are the methods of that object
 - Specific functions can also be directly imported from a module
-- Refer to [modules](./13-modules-and-packages) for info.
+- Refer to [modules](./13-modules-and-packages/modules) for info.
 
 #### Packages Basics
 
@@ -402,7 +402,7 @@ except ValueError:
 - Ways to import modules and their function from packages -
   - `import package.module` - imports the whole module
   - `from package.module import func_1, func_2` - imports specific functions from modules
-- Refer to [packages](./13-modules-and-packages) for info.
+- Refer to [packages](./13-modules-and-packages/packages) for info.
 
 # Exercises
 
