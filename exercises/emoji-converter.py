@@ -22,7 +22,7 @@ output = ''
 
 # loop over words and check if any word matches emoji
 for word in words:
-  output = output + emojis.get(word, word) + ' ' # for every word, get emoji associated with that word or key and if there isn't, then get the word itself
+  output = output + emojis.get(word, word) + ' ' # for every word, get emoji associated with that word or key & if there isn't, then get the word itself
 
 # print the output
 print(output)
