@@ -382,6 +382,15 @@ except ValueError:
 - `class Child(Parent)` - _Child_ class will inherit all the methods of the _Parent_ class
 - Refer to [inheritance.py](./12-objects/inheritance.py)
 
+## 13. Modules
+
+- Used to organize code into multiple files where each file is a module
+- A module should have all the related functions and classes
+- Makes the code more reusable as a module can be imported into other programs too
+- Imported module act as an object so the module functions are the methods of that object
+- Specific functions can also be directly imported from a module
+- Refer to [modules]('./13-modules) for info.
+
 # Exercises
 
 1. [Weight Converter Program](./exercises/weight-converter.py)
