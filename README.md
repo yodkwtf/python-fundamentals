@@ -382,14 +382,27 @@ except ValueError:
 - `class Child(Parent)` - _Child_ class will inherit all the methods of the _Parent_ class
 - Refer to [inheritance.py](./12-objects/inheritance.py)
 
-## 13. Modules
+## 13. Modules and Packages
+
+#### Modules in Python
 
 - Used to organize code into multiple files where each file is a module
 - A module should have all the related functions and classes
 - Makes the code more reusable as a module can be imported into other programs too
 - Imported module act as an object so the module functions are the methods of that object
 - Specific functions can also be directly imported from a module
-- Refer to [modules]('./13-modules) for info.
+- Refer to [modules](./13-modules-and-packages) for info.
+
+#### Packages Basics
+
+- Another way to organize code when there are a lot of modules
+- Can be called as a container for multiple similar modules
+- A directory is converted into a package by adding a special `__init__.py` file to it
+- Directory should be accurate when importing modules from packages
+- Ways to import modules and their function from packages -
+  - `import package.module` - imports the whole module
+  - `from package.module import func_1, func_2` - imports specific functions from modules
+- Refer to [packages](./13-modules-and-packages) for info.
 
 # Exercises
 
