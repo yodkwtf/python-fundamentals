@@ -1,6 +1,8 @@
 # Python Fundamentals
 
-A playground to learn basics of python with small programs and my personal docs based on those programmes.
+A playground to learn everything about the basics of python programming with a bunch of small programs, some cool exercises and my personal notes.
+
+Download the notes as a cheatsheet from here - [Python Cheatsheet (PDF)](https://drive.google.com/file/d/1KSPASGV9Nz1rZuVT4wXIfEcPkClNuu1s/view)
 
 ## Why learn Python?
 
